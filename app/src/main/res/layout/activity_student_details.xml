@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@android:color/black" android:padding="16dp" android:textStyle="bold" android:textSize="18sp" android:id="@+id/textViewTitle"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/buttonCheckAssignTask" android:layout_marginHorizontal="16dp" android:layout_marginTop="16dp" android:text="Check and Assign Task" android:layout_below="@id/textViewTitle"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/buttonSeePreviousHistory" android:layout_marginHorizontal="16dp" android:layout_marginTop="16dp" android:text="See Previous History" android:layout_below="@id/buttonCheckAssignTask"/>
+
+</RelativeLayout>
